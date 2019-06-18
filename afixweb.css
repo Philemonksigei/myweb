@@ -4,7 +4,7 @@ background-color:white;
 padding: 0px;
 margin: 0px;
 text-align:left;
-width: 100%;
+width: auto;
 }
 
 #p23{
@@ -31,8 +31,8 @@ margin-left: 0%;
 margin-right: 0%;
    }
 #afixlogo{
-length:200px;
-width: 200px;
+length:10%;
+width: 20%;
 margin:0px;
 padding: 0px;
 }
@@ -43,7 +43,7 @@ color: blue;
 }
 .container_home{
   /*overflow: hidden;*/
-  height: 960px;
+  height: 100%;
   background-image: url("images/afixbg.jpg");
   background-repeat: y;
   display: block;
@@ -53,17 +53,17 @@ width: 100%;
 color:white;
 padding: 0px;
 display:block;
-margin-right:100px
+
 }
   .subsection1_maininfo{
   text-align: left;
-  font-size: 30px;
+  font-size: auto;
   font-family:bookman;
   margin-left: 50px;
   }
   .subsection2_maininfo{
   text-align: left;
-  font-size: 26px;
+  font-size: auto;
   font-family:cursive;
   margin-left: 50px;
   }
@@ -82,6 +82,7 @@ ul{
   float: left;
   height: 40px;
   text-transform: uppercase;
+  width: 100%;
 
 }
 
@@ -89,21 +90,17 @@ ul li{
 
 color: white;
 float: left;
-padding-right: 0px;
+padding-right: 2px;
 font-family: sans-serif;
-font-size: 30px;
-width:320px;
+font-size: 200%;
+width:25%;
 height: 40px;
 background-color: green;
 opacity: 1;
 }
 ul li a{
-
 color: white;
-font-size:15px;
 display: block;
-padding-right:0px
-height:70px;
 }
 ul li a:hover{
 background-color: gold;
@@ -114,6 +111,7 @@ ul li ul li{
   display: none;
   text-transform: capitalize;
   padding:0px;
+  font-size:100%;
 
 }
 ul li:hover ul li{
