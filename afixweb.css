@@ -83,11 +83,8 @@ ul{
   height: 40px;
   text-transform: uppercase;
   width: 100%;
-
 }
-
 ul li{
-
 color: white;
 float: left;
 padding-right: 2px;
@@ -105,7 +102,6 @@ display: block;
 ul li a:hover{
 background-color: gold;
 text-decoration: none;
-
 }
 ul li ul li{
   display: none;
