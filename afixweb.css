@@ -43,11 +43,12 @@ color: blue;
 }
 .container_home{
   /*overflow: hidden;*/
-  height: 100%;
+height: 100%;
   background-image: url("images/afixbg.jpg");
   background-repeat: y;
   display: block;
-width: 100%;
+  width: 100%;
+  background-size: 100%;
 }
 #homepage{
 color:white;
@@ -120,16 +121,11 @@ font-family: sans-serif;
 .footer{
   background-color: blue;
   color: white;
-  height: 20%;
+  height: 200%;
+  clear: both;
   clear: both;
   text-align: center;
-  padding: 10px;
-  clear: both;
-}
-footer a {
-color: red;
-font-size: 15px;
-
+  height:20%;
 }
 
 
